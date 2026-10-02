@@ -1,0 +1,6 @@
+{
+  "topics": {
+    "/camera": { "min_hz": 8, "max_gap_ms": 150 },
+    "/joint_states": { "min_hz": 40, "max_gap_ms": 40 }
+  }
+}

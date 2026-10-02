@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robot-run-audit"
+version = "0.1.0"
+description = "A local, inspectable robotics integration check."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+authors = [{name = "gbesse"}]
+dependencies = ['mcap>=1.5,<2']
+
+[project.scripts]
+robot-run-audit = "robot_run_audit:main"
+
+[tool.setuptools]
+py-modules = ['robot_run_audit']
