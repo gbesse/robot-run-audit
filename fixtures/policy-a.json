@@ -1,0 +1,1 @@
+{"files":{"weights":"model.bin","normalization":"normalization.json"},"controller":{"name":"joint-position","version":"1.0","frame":"base","units":{"joint_1":"rad"}}}

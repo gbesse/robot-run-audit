@@ -14,6 +14,7 @@ dependencies = ['mcap>=1.5,<2']
 
 [project.scripts]
 robot-run-audit = "robot_run_audit:main"
+robot-policy-fingerprint = "policy_fingerprint:main"
 
 [tool.setuptools]
-py-modules = ['robot_run_audit']
+py-modules = ['robot_run_audit', 'policy_fingerprint']
